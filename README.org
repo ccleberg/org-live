@@ -1,0 +1,14 @@
+* README
+
+[[https://org.cleberg.net][org-live] is a live environment for writing and editing [[https://orgmode.org/][org-mode]].
+
+** Functions
+
+- Plain text editor with capitalization, autocorrect, and spellcheck support.
+- Show HTML output of the written org-mode.
+- Download the org-mode content to a local file.
+- Download the parsed HTML output to a local file.
+
+** TODO Further Development
+
+- Explore feasability of parsing org-mode to HTML constantly and sending parsed HTML output to a "viewing" pane.
