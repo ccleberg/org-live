@@ -1,6 +1,7 @@
 * README
 
-[[https://org.cleberg.net][org-live] is a live environment for writing and editing [[https://orgmode.org/][org-mode]].
+[[https://org.cleberg.net][org-live] is a live environment for writing and 
+editing [[https://orgmode.org/][org-mode]].
 
 ** Functions
 
@@ -11,4 +12,5 @@
 
 ** TODO Further Development
 
-- Explore feasability of parsing org-mode to HTML constantly and sending parsed HTML output to a "viewing" pane.
+- Explore feasability of parsing org-mode to HTML constantly and sending parsed 
+  HTML output to a "viewing" pane.
