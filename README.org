@@ -14,4 +14,4 @@ editing [[https://orgmode.org/][org-mode]].
 
 - Explore feasability of parsing org-mode to HTML constantly and sending parsed 
   HTML output to a "viewing" pane.
-- Currently doesn't work on iOS Safari.
+
