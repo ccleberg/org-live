@@ -174,7 +174,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -184,7 +185,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -348,66 +350,77 @@ template {
   display: none;
 }
 
-
 /* CUSTOM SITE CSS
    ========================================================================== */
 body {
-    font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
+  font-family:
+    Menlo,
+    Consolas,
+    Monaco,
+    Liberation Mono,
+    Lucida Console,
+    monospace;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
+div:not(#preview) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
 }
 
 label {
-    text-align: center;
-    width: 20%;
+  text-align: center;
+  width: 20%;
 }
 
 .spacer {
-    width: 60%;
+  width: 60%;
 }
 
 button {
-    border: none;
-    border-radius: 0;
-    padding: 0.75rem;
-    width: 20%;
+  border: none;
+  border-radius: 0;
+  padding: 0.75rem;
+  width: 20%;
 }
 
 textarea {
-    background-color: inherit;
-    border: none;
-    border-radius: 0;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    resize: none;
-    outline: none;
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+  outline: none;
+}
 
-    height: 100vh;
-    width: 100vw;
-    max-height: 100vw;
-    max-width: 90vw;
-    margin: 0 auto;
-    padding: 1.5rem;
+textarea,
+#preview {
+  height: 40vh;
+  width: 100vw;
+  max-height: 40vh;
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 1.5rem;
+  /*  white-space: pre-wrap; */
+  overflow: scroll;
 }
 
 :modal {
-    height: 90vh;
-    width: 90vw;
+  height: 90vh;
+  width: 90vw;
 }

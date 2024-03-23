@@ -10,7 +10,13 @@ editing [[https://orgmode.org/][org-mode]].
 - Download the org-mode content to a local file.
 - Download the parsed HTML output to a local file.
 
-** TODO Further Development
+** Further Development
+*** DONE Explore feasability of parsing org-mode to HTML constantly and sending parsed HTML output to a "viewing" pane.
 
-- Explore feasability of parsing org-mode to HTML constantly and sending parsed
-  HTML output to a "viewing" pane.
+** Screenshots
+
+#+caption: Light Mode
+[[./screenshots/light_preview.png]]
+
+#+caption: Dark Mode
+[[./screenshots/dark_preview.png]]

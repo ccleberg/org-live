@@ -1,3 +1,14 @@
+window.onkeyup = keyup;
+var inputText;
+
+function keyup(e) {
+    // inputText = e.target.value;
+    inputText = parseOrg();
+
+    const preview = document.getElementById("preview");
+    preview.innerHTML = inputText;
+}
+
 function parseOrg() {
     var orgCode = document.getElementById("editor").value;
     var orgParser = new Org.Parser();
