@@ -12,6 +12,5 @@ editing [[https://orgmode.org/][org-mode]].
 
 ** TODO Further Development
 
-- Explore feasability of parsing org-mode to HTML constantly and sending parsed 
+- Explore feasability of parsing org-mode to HTML constantly and sending parsed
   HTML output to a "viewing" pane.
-

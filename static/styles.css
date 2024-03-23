@@ -352,9 +352,7 @@ template {
 /* CUSTOM SITE CSS
    ========================================================================== */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
-        segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
-        arial, sans-serif;
+    font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
