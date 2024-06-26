@@ -11,7 +11,9 @@ editing [[https://orgmode.org/][org-mode]].
 - Download the parsed HTML output to a local file.
 
 ** Further Development
-*** DONE Explore feasability of parsing org-mode to HTML constantly and sending parsed HTML output to a "viewing" pane.
+
+TBD - I finished all of the initial features I wanted and have not spent much
+time considering what else to add. Contributions always welcome.
 
 ** Screenshots
 
