@@ -56,11 +56,3 @@ function saveHTML() {
         window.URL.revokeObjectURL(url);
     }, 0);
 }
-
-function showHTML() {
-    var data = parseOrg();
-    data += "<form method='dialog'><button>Close dialog</button></form>";
-    var element = document.getElementById("modal");
-    element.innerHTML = data.toString();
-    element.showModal();
-}
