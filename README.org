@@ -1,6 +1,6 @@
 * README
 
-[[https://org.cleberg.net][org-live]] is a live environment for writing and 
+[[https://org.cmc.pub][org-live]] is a live environment for writing and 
 editing [[https://orgmode.org/][org-mode]].
 
 ** Functions
